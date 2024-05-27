@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: "微軟正黑體";
+				text-align: center;
+				font-weight: bolder;
+			}
+			li {
+				list-style: none;
+			}
+			/* 0 ~ 576px */
+			.container {
+				width: 575px;
+				padding: 15px;
+				margin: auto;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.html {
+				border-top: 1px solid #ccc;
+				margin-top: 20px;
+			}
+			img {
+				width: 200px;
+				padding-top: 20px;
+			}
+			p {
+				padding: 20px 0px;
+				border-bottom: 1px solid #000;
+			}
+			.line {
+				display: none;
+			}
+			/* 768up */
+			@media (min-width: 768px) {
+				p {
+					display: none;
+				}
+				.wda {
+					position: absolute;
+					top: 50%;
+					left: 55%;
+					transform: translate(-50%, -50%);
+				}
+				.content {
+					position: absolute;
+					top: 70%;
+					left: 55%;
+					transform: translate(-50%, -50%);
+				}
+				.html {
+					margin: 0;
+					border: 0;
+					position: absolute;
+					top: 5%;
+					left: 5%;
+				}
+				.css {
+					position: absolute;
+					top: 0%;
+					left: 30%;
+				}
+				.js {
+					position: absolute;
+					top: 45%;
+					left: 15%;
+				}
+				.jq {
+					position: absolute;
+					top: 65%;
+					left: 30%;
+				}
+				.bs {
+					position: absolute;
+					top: 5%;
+					left: 70%;
+				}
+				.sass {
+					position: absolute;
+					top: 35%;
+					left: 85%;
+				}
+				.vue {
+					position: absolute;
+					top: 65%;
+					left: 75%;
+				}
+				.line {
+					display: block;
+					/* transition: ease 1s linear; */
+				}
+				.L1 {
+					width: 600px;
+					position: absolute;
+					top: 35%;
+					left: 15%;
+					transform: translate(-50%, -50%);
+					transform: rotate(15deg);
+				}
+				.L2 {
+					width: 200px;
+					position: absolute;
+					top: 30%;
+					left: 40%;
+					transform: translate(-50%, -50%);
+					transform: rotate(30deg);
+				}
+				.L3 {
+					width: 350px;
+					position: absolute;
+					top: 58%;
+					left: 26%;
+					transform: translate(-50%, -50%);
+					transform: rotate(160deg);
+				}
+				.L4 {
+					width: 150px;
+					position: absolute;
+					top: 65%;
+					left: 40%;
+					transform: translate(-50%, -50%);
+					transform: rotate(130deg);
+				}
+				.L5 {
+					width: 200px;
+					position: absolute;
+					top: 30%;
+					left: 60%;
+					transform: translate(-50%, -50%);
+					transform: rotate(150deg);
+				}
+				.L6 {
+					width: 350px;
+					position: absolute;
+					top: 50%;
+					left: 65%;
+					transform: translate(-50%, -50%);
+					transform: rotate(180deg);
+				}
+				.L7 {
+					width: 200px;
+					position: absolute;
+					top: 70%;
+					left: 62%;
+					transform: translate(-50%, -50%);
+					transform: rotate(215deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="line L1"><hr /></div>
+			<div class="line L2"><hr /></div>
+			<div class="line L3"><hr /></div>
+			<div class="line L4"><hr /></div>
+			<div class="line L5"><hr /></div>
+			<div class="line L6"><hr /></div>
+			<div class="line L7"><hr /></div>
+			<div class="wda">
+				<img src="./images/wda.png" alt="泰山職訓局" style="width: 250px" />
+				<h1>泰山職訓場</h1>
+			</div>
+			<div class="content">
+				<h2>從零開始的網頁設計課程</h2>
+				<ul>
+					<li>轉職網頁開發人員 掌握就業必備職能</li>
+					<li>由淺入深學習技術 強化職場的競爭力</li>
+				</ul>
+			</div>
+			<div class="html">
+				<img src="./images/html.png" alt="html5" />
+				<h2>HTML</h2>
+				<p>
+					超文本標記語言（英語：HyperText Markup Language，簡稱：HTML）是一種用於建立網頁的標準標記語言。 HTML 是一種基礎技術，常與 CSS、JavaScript
+					一起被眾多網站用於設計賞心悅目的網頁、網頁應用程式以及行 動應用程式的使用者介面。網頁瀏覽器可以讀取 HTML 檔案，並將其彩現成視覺化網頁。HTML
+					描述了一個網站 的結構語意隨著線索的呈現，使之成為一種標記語言而非程式語言。
+				</p>
+			</div>
+			<div class="css">
+				<img src="./images/css.png" alt="css3" />
+				<h2>CSS</h2>
+				<p>
+					層疊樣式表（英語：Cascading Style Sheets，簡寫CSS），又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣 式表，一種用來為結構化文件（如 HTML 文件或 XML
+					應用）添加樣式（字型、間距和顏色等）的電腦語言，由 W3C 定義和維護。目前最新版本是 CSS2.1，為 W3C 的推薦標準。CSS3 現在已被大部分現代瀏覽器支援，而下
+					一版的 CSS4 仍在開發中。
+				</p>
+			</div>
+			<div class="js">
+				<img src="./images/js.png" alt="js" />
+				<h2>JavaScript</h2>
+				<p>
+					JavaScript，通常縮寫為 JS，是一種進階直譯語言的程式語言。JavaScript 是一門基於原型、函式先行的語言，是
+					一門多範式的語言，它支援物件導向編程，指令式程式設計，以及函式語言程式設計。
+				</p>
+			</div>
+			<div class="jq">
+				<img src="./images/jq.png" alt="jq" />
+				<h2>JQuery</h2>
+				<p>
+					jQuery 是一套跨瀏覽器的 JavaScript 函式庫，簡化 HTML 與 JavaScript 之間的操作。全球前 10,000 個存取最高的 網站中，有 65%
+					使用了jQuery，是目前最受歡迎的 JavaScript 函式庫。
+				</p>
+			</div>
+			<div class="bs">
+				<img src="./images/bs.png" alt="bs" />
+				<h2>Bootstrap</h2>
+				<p>
+					Bootstrap 是一組用於網站和網路應用程式開發的開源前端（所謂「前端」，指的是展現給終端使用者的介面。與
+					之對應的「後端」是在伺服器上面執行的程式碼）框架，包括 HTML、CSS及JavaScript 的框架，提供字體排印、 表單、按鈕、導航及其他各種元件及 Javascript
+					擴充套件，旨在使動態網頁和 Web 應用的開發更加容易。
+				</p>
+			</div>
+			<div class="sass">
+				<img src="./images/sass.png" alt="sass" />
+				<h2>SASS</h2>
+				<p>
+					Sass（英文全稱：Syntactically Awesome Stylesheets）是一個最初由Hampton Catlin設計並由Natalie
+					Weizenbaum開發的層疊樣式表語言。在開發最初版本之後，Weizenbaum和Chris
+					Eppstein繼續通過SassScript來繼續擴充Sass的功能。SassScript是一個在Sass檔案中使用的小型手稿語言。
+				</p>
+			</div>
+			<div class="vue">
+				<img src="./images/vue.png" alt="vue" />
+				<h2>Vue.js</h2>
+				<p style="border-bottom: none">
+					Vue.js（/vjuː/，簡稱Vue）是一個用於建立使用者介面的開源MVVM前端JavaScript框架，也是一個建立單頁應用的Web應用框架。Vue.js由尤雨溪建立，由他和其他活躍的核心團隊成員維護。
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
